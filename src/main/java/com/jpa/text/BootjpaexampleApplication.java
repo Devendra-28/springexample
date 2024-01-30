@@ -15,6 +15,7 @@ import com.jpa.text.entities.User;
 @SpringBootApplication
 public class BootjpaexampleApplication {
 
+	
 	public static void main(String[] args) {
 		ApplicationContext context= SpringApplication.run(BootjpaexampleApplication.class, args);
 		UserRepository userRepository= context.getBean(UserRepository.class);
@@ -35,6 +36,7 @@ public class BootjpaexampleApplication {
 	 */
 		
 		// Saving single user
+		
 	//	User resultUser = userRepository.save(user1);
 	//	System.out.println("Save user"+resultUser);
 //		List<User> users = List.of(user1,user2);
@@ -51,6 +53,7 @@ public class BootjpaexampleApplication {
 	 * userRepository.save(user); System.out.println(result);
 	 */
 		//how to get the data
+		
 		//findById(id)
 		//Iterable<User> itr = userRepository.findAll();
 		/*Iterator<User> iterator = itr.iterator();
@@ -63,10 +66,12 @@ public class BootjpaexampleApplication {
 		
 		//Deleting the user Element
 		//Delete by single user deleteById(id)
+		
 	//	userRepository.deleteById(2);
 	//	System.out.println("Deleted...");
 		
 		//Delete All users deleteAll()
+		
 		//Iterable<User> allusers = userRepository.findAll();
 		//allusers.forEach(users->{System.out.println(users);});
 		//userRepository.deleteAll();
